@@ -59,6 +59,8 @@ import java.util.function.Predicate;
  * @see com.rabbitmq.client.ConnectionFactory#setAutomaticRecoveryEnabled(boolean)
  * @see com.rabbitmq.client.ConnectionFactory#setTopologyRecoveryEnabled(boolean)
  * @since 3.3.0
+ *
+ * @apiNote 可自动恢复连接的 Connection。
  */
 public class AutorecoveringConnection implements RecoverableConnection, NetworkConnection {
 

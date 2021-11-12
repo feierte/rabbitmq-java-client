@@ -32,8 +32,9 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * A socket-based frame handler.
+ *
+ * @apiNote 对Socket的一个封装，完全可以看成是一个Socket对象。
  */
-
 public class SocketFrameHandler implements FrameHandler {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(SocketFrameHandler.class);

@@ -16,7 +16,7 @@ def md5(final file) {
 
 def generate_source(final type, final filename) {
   String[] command = [
-    'python',
+    'C:\\Tools\\Python\\Python310\\python.exe',
     properties['script'], type,
     properties['spec'],
     filename

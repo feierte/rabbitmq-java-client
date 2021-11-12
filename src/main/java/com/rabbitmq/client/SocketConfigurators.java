@@ -30,6 +30,8 @@ public abstract class SocketConfigurators {
 
     /**
      * Disable Nagle's algorithm.
+     *
+     * @apiNote SocketConfigurator 的默认实现。蛇者 Socket 的 TCP_NODELAY 参数为 true。
      */
     public static final SocketConfigurator DISABLE_NAGLE_ALGORITHM = socket -> socket.setTcpNoDelay(true);
 
